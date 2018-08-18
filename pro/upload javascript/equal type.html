@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>modal</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+<div class="container"  style="margin-top:10px">
+    <div class="jumbotron">
+
+        <P> "2" + 4 +5 ;</P></P><p id="one"></p>
+       <P> 2 + 4 +5 </P> <p id="two"></p>
+        <p> 2 + "4" +5 </p><p id="three"></p>
+        <p>2 + 4 +"5"</p><p id="four"></p>
+
+        <script>
+
+
+
+            var a = "2" + 4 +5 ;
+            document.getElementById("one").innerHTML = "2" + 4 +5 ;
+
+            var b = 2 + 4 +5 ;
+            document.getElementById("two").innerHTML = b;
+
+
+            var c = 2 + "4" +5 ;
+            document.getElementById("three").innerHTML = c;
+
+            var d = 2 + 4 +"5" ;
+            document.getElementById("four").innerHTML = d;
+
+        </script>
+    </div>
+
+</body>
+</html>

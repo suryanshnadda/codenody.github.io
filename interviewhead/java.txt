@@ -1,0 +1,1081 @@
+<button id="owe" class="list-group-item button-info"  data-target="#1"  data-toggle="collapse" style="font-family:Maven Pro">What is difference between JDK, JRE and JVM?</button>
+    <div class="collapse" id="1">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+JVM- JVM is Java Virtual Machine, it is an abstract machine which provides the runtime environment in which java bytecode can be executed. It is a specification. JVMs are available for many hardware and software platforms (so JVM is platform dependent).
+JRE- JRE is Java Runtime Environment. It is the implementation of JVM.
+JDK- JDK is Java Development Kit. It contains JRE and development tools.
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#2"  data-toggle="collapse" style="font-family:Maven Pro">What is JIT compiler?
+</button>
+    <div class="collapse" id="2">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Just-In-Time(JIT) compiler is used to improve the performance. JIT compiles parts of the byte code that have similar functionality at the same time, and hence reduces the amount of time needed for compilation. 
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#3"  data-toggle="collapse" style="font-family:Maven Pro">When we should use serialization?
+</button>
+    <div class="collapse" id="3">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Serialization is used when data needs to be transmitted over the network. Using serialization, object’s state is saved and converted into byte stream .The byte stream is transferred over the network and the object is re-created at destination.
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#4"  data-toggle="collapse" style="font-family:Maven Pro">What is classloader?
+</button>
+    <div class="collapse" id="4">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+The classloader is a subsystem of JVM that is used to load classes and interfaces. There are many types of classloaders e.g. Bootstrap classloader, Extension classloader, System classloader, Plugin classloader etc.
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#5"  data-toggle="collapse" style="font-family:Maven Pro">What is the default value of the local variables?
+</button>
+    <div class="collapse" id="5">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+The local variables are not initialized to any default value.
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#6"  data-toggle="collapse" style="font-family:Maven Pro">What is constructor?
+	 </button>
+    <div class="collapse" id="6">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+In Java, constructor is a block of codes similar to method. It is called when an instance of object is created and memory is allocated for the object. It is a special type of method which is used to initialize the object.
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#7"  data-toggle="collapse" style="font-family:Maven Pro">What is the purpose of default constructor?
+</button>
+    <div class="collapse" id="7">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+The default constructor provides the default values to the objects.
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#8"  data-toggle="collapse" style="font-family:Maven Pro"> What is static variable?
+</button>
+    <div class="collapse" id="8">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+A static variable is common to all the instances (or objects) of the class because it is a class level variable. In other words you can say that only a single copy of static variable is created and shared among all the instances of the class. Memory allocation for such variables only happens once when the class is loaded in the memory. 
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#9"  data-toggle="collapse" style="font-family:Maven Pro">What is static method?
+</button>
+    <div class="collapse" id="9">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+A static method belongs to the class rather than object of a class. A static method can be invoked without the need for creating an instance of a class. Static method can access static data member and can change the value of it.
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#10"  data-toggle="collapse" style="font-family:Maven Pro"> Why java main method is static?
+</button>
+    <div class="collapse" id="10">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Java main method is static because object is not required to call static methods if it were non-static method, JVM would create the object first then call main() method that will lead the problem of extra memory allocation.
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#11"  data-toggle="collapse" style="font-family:Maven Pro">Can we execute a program without main() method?
+</button>
+    <div class="collapse" id="11">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Yes, one of the way is static block. With static block we can execute a program without main() method.
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#12"  data-toggle="collapse" style="font-family:Maven Pro">What is this in java?
+</button>
+    <div class="collapse" id="12">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+this is a reference variable that refers to the current object. 
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#13"  data-toggle="collapse" style="font-family:Maven Pro"> The difference between sleep and wait in Java? </button>
+    <div class="collapse" id="13">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Though both are used to pause currently running thread, sleep() is actually meant for short pause because it doesn't release lock, while wait() is meant for conditional wait and that's why it release lock which can then be acquired by another thread to change the condition on which it is waiting.
+
+
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#14"  data-toggle="collapse" style="font-family:Maven Pro">What is a Class Variable?
+</button>
+    <div class="collapse" id="14">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+These are variables declared with in a class, outside any method, with the static keyword.
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#15"  data-toggle="collapse" style="font-family:Maven Pro"> What is Singleton class?
+</button>
+    <div class="collapse" id="15">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+Singleton class control object creation. A singleton is a class that allows only a single instance of itself to be created and gives access to that created instance.
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#16"  data-toggle="collapse" style="font-family:Maven Pro">What is an Instance Variable?
+</button>
+    <div class="collapse" id="16">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Instance variables are variables within a class but outside any method. These variables are instantiated when the class is loaded.
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#17"  data-toggle="collapse" style="font-family:Maven Pro">What do you mean by Constructor?
+</button>
+    <div class="collapse" id="17">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Constructor gets invoked when a new object is created. Every class has a constructor. If we do not explicitly write a constructor for a class, the java compiler builds a default constructor for that class itself.
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#18"  data-toggle="collapse" style="font-family:Maven Pro">What is the default value of byte datatype in Java?
+</button>
+    <div class="collapse" id="18">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+Default value of byte datatype is 0.
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#19"  data-toggle="collapse" style="font-family:Maven Pro">What do you mean by Access Modifier?
+</button>
+    <div class="collapse" id="19">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Java provides access modifiers to set access levels for classes, variables, methods and constructors. A member has package or default accessibility when no accessibility modifier is specified.
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#20"  data-toggle="collapse" style="font-family:Maven Pro">What are the key differences between C and Java? 
+</button>
+    <div class="collapse" id="20">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Java does not support multiple inheritance instead it supports multi-level inheritance which means in java any class cannot inherit to multiple classes.<br>
+There is no concept of pointers in java.<Br>
+Java does not support unions and structures and destructors.<Br>
+Java includes built-in support of memory management via garbage collections where as in C, developer has to take care of it. 
+<Br>
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#21"  data-toggle="collapse" style="font-family:Maven Pro">What is finalize() method?
+</button>
+    <div class="collapse" id="21">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+finalize( ) will be called just before an object's final destruction by the garbage collector and it can be used to ensure that an object terminates cleanly.
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#22"  data-toggle="collapse" style="font-family:Maven Pro">How finally used under Exception Handling?
+</button>
+    <div class="collapse" id="22">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+The finally keyword is used to create a block of code that follows a try block. A finally block of code always executes, whether or not an exception has occurred.
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#23"  data-toggle="collapse" style="font-family:Maven Pro">What is Polymorphism?
+</button>
+    <div class="collapse" id="23">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object
+
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#24"  data-toggle="collapse" style="font-family:Maven Pro"> What is Encapsulation?
+</button>
+    <div class="collapse" id="24">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+It is the technique of making the fields in a class private and providing access to the fields via public methods. If a field is declared private, it cannot be accessed by anyone outside the class, thereby hiding the fields within the class. Therefore encapsulation is also referred to as data hiding.
+
+				  </p>
+             </div>
+     </div>
+	 
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#25"  data-toggle="collapse" style="font-family:Maven Pro">What is an Interface?
+</button>
+    <div class="collapse" id="25">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+An interface is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface.
+
+				  </p>
+             </div>
+     </div>
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#26"  data-toggle="collapse" style="font-family:Maven Pro">What are the two ways in which Thread can be created?
+</button>
+    <div class="collapse" id="26">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+Thread can be created by: implementing Runnable interface, extending the Thread class.
+
+				  </p>
+             </div>
+     </div>
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#27"  data-toggle="collapse" style="font-family:Maven Pro">Explain garbage collection in Java?
+</button>
+    <div class="collapse" id="27">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+It is used to free the memory. By cleaning those objects that are no longer reference in the program.
+
+				  </p>
+             </div>
+     </div>
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#28"  data-toggle="collapse" style="font-family:Maven Pro">Define immutable object?
+</button>
+    <div class="collapse" id="28">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+An immutable object can’t be changed once it is created.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#29"  data-toggle="collapse" style="font-family:Maven Pro"> Define composition?
+</button>
+    <div class="collapse" id="29">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+Holding the reference of the other class within some other class is known as composition.
+
+				  </p>
+             </div>
+     </div>
+	 
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#30"  data-toggle="collapse" style="font-family:Maven Pro">What is NullPointerException?
+</button>
+    <div class="collapse" id="30">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+A NullPointerException is thrown when calling the instance method of a null object, accessing or modifying the field of a null object etc.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#31"  data-toggle="collapse" style="font-family:Maven Pro">What is the difference between yielding and sleeping?</button>
+    <div class="collapse" id="31">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+When a task invokes its yield() method, it returns to the ready state. When a task invokes its sleep() method, it returns to the waiting state.
+
+
+				  </p>
+             </div>
+     </div>
+	 	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#32"  data-toggle="collapse" style="font-family:Maven Pro">What is a transient variable?
+</button>
+    <div class="collapse" id="32">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+A transient variable is a variable that may not be serialized during Serialization and which is initialized by its default value during de-serialization,
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#33"  data-toggle="collapse" style="font-family:Maven Pro">What is synchronization?</button>
+    <div class="collapse" id="33">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Synchronization is the capability to control the access of multiple threads to shared resources. synchronized keyword in java provides locking which ensures mutual exclusive access of shared resource and prevent data race.
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#34"  data-toggle="collapse" style="font-family:Maven Pro">How can a dead thread be restarted?
+</button>
+    <div class="collapse" id="34">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+A dead thread cannot be restarted.
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#35"  data-toggle="collapse" style="font-family:Maven Pro"> Can a top level class be private or protected?
+</button>
+    <div class="collapse" id="35">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+No, a top level class can not be private or protected. It can have either "public" or no modifier.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#36"  data-toggle="collapse" style="font-family:Maven Pro">What is Dynamic Binding(late binding)?
+</button>
+    <div class="collapse" id="36">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Binding refers to the linking of a procedure call to the code to be executed in response to the call. Dynamic binding means that the code associated with a given procedure call is not known until the time of the call at run-time.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#37"  data-toggle="collapse" style="font-family:Maven Pro">How do you decide when to use ArrayList and LinkedList?
+</button>
+    <div class="collapse" id="37">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+If you need to frequently add and remove elements from the middle of the list and only access the list elements sequentially, then LinkedList should be used. If you need to support random access, without inserting or removing elements from any place other than the end, then ArrayList should be used.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#38"  data-toggle="collapse" style="font-family:Maven Pro">What is dot operator?
+</button>
+    <div class="collapse" id="38">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+The dot operator(.) is used to access the instance variables and methods of class objects.It is also used to access classes and sub-packages from a package.
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#39"  data-toggle="collapse" style="font-family:Maven Pro">Describe life cycle of thread?
+</button>
+    <div class="collapse" id="39">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+A thread is an execution in a program. The life cycle of a thread include −<Br>
+Newborn state<br>
+Runnable state<br>
+Running state<br>
+Blocked state<br>
+Dead state
+<br>
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#40"  data-toggle="collapse" style="font-family:Maven Pro">Where import statement is used in a Java program?
+</button>
+    <div class="collapse" id="40">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Import statement is allowed at the beginning of the program file after package statement.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#41"  data-toggle="collapse" style="font-family:Maven Pro">Explain main thread under Thread class execution?
+</button>
+    <div class="collapse" id="41">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+The main thread is created automatically and it begins to execute immediately when a program starts. It is the thread from which all other child threads originate.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#42"  data-toggle="collapse" style="font-family:Maven Pro">Define canvas?
+</button>
+    <div class="collapse" id="42">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+It is a simple drawing surface which are used for painting images or to perform other graphical operations.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#43"  data-toggle="collapse" style="font-family:Maven Pro">What is a Socket?
+</button>
+    <div class="collapse" id="43">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Sockets provide the communication mechanism between two computers using TCP. A client program creates a socket on its end of the communication and attempts to connect that socket to a server.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="44"  data-toggle="collapse" style="font-family:Maven Pro">Define Network Programming?
+</button>
+    <div class="collapse" id="44">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+It refers to writing programs that execute across multiple devices (computers), in which the devices are all connected to each other using a network.
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#45"  data-toggle="collapse" style="font-family:Maven Pro">What is daemon thread?
+</button>
+    <div class="collapse" id="45">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+Daemon thread is a low priority thread, which runs intermittently in the back ground doing the garbage collection operation for the java runtime system. 
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#46"  data-toggle="collapse" style="font-family:Maven Pro">Which method must be implemented by all threads?
+</button>
+    <div class="collapse" id="46">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+All tasks must implement the run() method.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#47"  data-toggle="collapse" style="font-family:Maven Pro">What is difference between Path and Classpath?
+</button>
+    <div class="collapse" id="47">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+Path and Classpath are operating system level environment variables. Path is defines where the system can find the executables(.exe) files and classpath is used to specify the location of .class files.
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#48"  data-toggle="collapse" style="font-family:Maven Pro">What is an object's lock and which objects have locks?
+</button>
+    <div class="collapse" id="48">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+An object's lock is a mechanism that is used by multiple threads to obtain synchronized access to the object. A thread may execute a synchronized method of an object only after it has acquired the object's lock.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#49"  data-toggle="collapse" style="font-family:Maven Pro">Why Java is platform independent?
+</button>
+    <div class="collapse" id="49">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+Platform independent practically means “write once run anywhere”. Java is called so because of its byte codes which can run on any system irrespective of its underlying operating system.
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#50"  data-toggle="collapse" style="font-family:Maven Pro">If a class is declared without any access modifiers, where may the class be accessed?
+</button>
+    <div class="collapse" id="50">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+A class that is declared without any access modifiers is said to have package access. This means that the class can only be accessed by other classes and interfaces that are defined within the same package.
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#51"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="15">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#52"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="52">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#53"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="53">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#54"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="54">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#55"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="55">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#56"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="56">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#57"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="57">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#58"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="58">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#59"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="59">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#60"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="60">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#61"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="61">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#62"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="62">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#63"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="63">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#64"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="64">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#65"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="65">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#66"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="66">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#67"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="67">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#68"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="68">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#69"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="69">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#70"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="70">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#71"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="71">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#72"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="72">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#73"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="73">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#74"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="74">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#75"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="75">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#76"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="76">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#77"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="77">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#78"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="78">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#79"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="79">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#80"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="80">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#81"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="81">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#82"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="82">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#83"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="83">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#84"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="84">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#85"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="85">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#86"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="86">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#87"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="87">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#88"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="88">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#89"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="89">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#90"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="90">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#91"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="91">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#92"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="92">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#93"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="93">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#94"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="94">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#95"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="95">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#96"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="96">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#97"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="97">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#98"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="98">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+
+
+				  </p>
+             </div>
+     </div>
+	 

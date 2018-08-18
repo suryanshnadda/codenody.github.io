@@ -1,0 +1,65 @@
+operating system?
+a) collection of programs that manages hardware resources
+b) system service provider to the application programs
+c) link to interface the hardware and application programs
+
+
+To access the services of operating system, the interface is provided by the
+System calls
+
+kernel is the program that constitutes the central core of the operating system
+kernel is the first part of operating system to load into memory during booting
+kernel remains in the memory during the entire computer session
+
+By operating system, the resource management can be done via
+time division multiplexing
+space division multiplexing
+
+If a process fails, most operating system write the error information to a ______
+log file
+
+The OS X has hybrid kernel
+
+The address of the next instruction to be executed by the current process is provided by the
+ Program counter
+ 
+  
+wait system call returns the process identifier of a terminated child
+
+A process stack does not contain PID of child process
+
+What is interprocess communication
+communication between two process
+
+the ready state of a process?
+when process is scheduled to run after some execution
+
+In Unix, fork system call creates the new process
+
+The systems which allows only one process execution at a time, are called
+uniprocessing systems
+
+A Process Control Block(PCB) does not contain 
+ Bootstrap program
+ 
+The number of processes completed per unit time is known as
+Throughput
+
+The state of a process is defined by 
+the current activity of the process
+
+The Process Control Block is:
+Data Structure
+
+The entry of all the PCBs of the current processes is in
+Process Table
+
+The degree of multi-programming is
+the number of processes in memory
+
+A single thread of control allows the process to perform:
+only one task at a time
+
+The objective of multi-programming is to 
+Have some process running at all times
+

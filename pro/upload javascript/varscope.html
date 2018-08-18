@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> variable scope</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container"  style="margin-top:10px">
+    <div class="jumbotron">
+
+
+      <p>value of a is  1234567891234567891</p>  <p>but java script shows</p>  <p id="one"></p>
+
+
+        <script>
+               function one()
+               {
+               var a = 1234567891234567891;
+               document.getElementById("one").innerHTML = a;
+               //after 15-16 it losses its precision
+               }
+           one();
+
+        </script>
+
+    </div>
+
+</body>
+</html>

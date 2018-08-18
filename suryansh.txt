@@ -1,0 +1,501 @@
+<button id="owe" class="list-group-item button-info"  data-target="#36"  data-toggle="collapse" style="font-family:Maven Pro">What is the fastest way to enter a series of commands from the command-line?</button>
+    <div class="collapse" id="36">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         - Write the commands, each separated by a semi-colon. Press enter after the last command. 
+                     - The semi-colon would inform the shell that multiple commands are being entered at the command line, to be executed serially.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#37"  data-toggle="collapse" style="font-family:Maven Pro">What are the qualities of soft links?</button>
+    <div class="collapse" id="37">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         a.) Soft link files have different inode numbers than source file
+                     b.) The soft link file will be of no use if original file is deleted. 
+ 
+             </div>
+     </div>
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#38"  data-toggle="collapse" style="font-family:Maven Pro">What is an INODE?</button>
+    <div class="collapse" id="38">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			       - It is a structure which has the description of all the files and pointers to the data blocks of files stored in it. 
+                   - The information contained is file-size, access and modification time, permission and so on.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#39"  data-toggle="collapse" style="font-family:Maven Pro">What is the name and path of the main system log?</button>
+    <div class="collapse" id="39">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			        By default, the main system log is '/var/log/messages'. This file contains all the messages and the script written by the user. By default all scripts are saved in this file. This is the standard system log file, which contains messages from all system software, non-kernel boot issues, and messages that go to 'dmesg'. dmesg is a system file that is written upon system boot.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#40"  data-toggle="collapse" style="font-family:Maven Pro">How secured is Linux? Explain</button>
+    <div class="collapse" id="40">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         Security is the most important aspect of an operating system. Due to its unique authentication module, Linux is considered as more secured than other operating systems. Linux consists of PAM. PAM is Pluggable Authentication Modules. It provides a layer between applications and actual authentication mechanism. It is a library of loadable modules which are called by the application for authentication. It also allows the administrator to control when a user can log in. All PAM applications are configured in the directory "/etc/pam.d" or in a file "/etc/pam.conf". PAM is controlled using the configuration file or the configuration directory.	     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#41"  data-toggle="collapse" style="font-family:Maven Pro">What is the minimum number of partitions that you need to install Linux?</button>
+    <div class="collapse" id="41">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			       Minimum 2 partitions are needed for installing Linux. The one is "/ or root" which contains all the files and the other is swap. Linux file system is function specific which means that files and folders are organized according to their functionality. For example, all executables are in one folder, all devices in another, all libraries in another and so on. "/ or root" is the base of this file system. All the other folders are under this one. "/" can be consider as "C:". Swap is a partition that will be used as virtual memory. If there is no more available RAM a Linux computer will use an area of the hard disk, called swap, to temporarily store data. In other words it is a way of expanding your computers RAM.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#42"  data-toggle="collapse" style="font-family:Maven Pro">Which command is used to review boot messages?</button>
+    <div class="collapse" id="42">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+				  dmesg command is used to review boot messages. This command will display system messages contained in the kernel ring buffer. We can use this command immediately after booting to see boot messages. A ring buffer is a buffer of fixed size for which any new data added to it overwrites the oldest data in it.
+
+			         </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#43"  data-toggle="collapse" style="font-family:Maven Pro">How documentation of an application is stored?</button>
+    <div class="collapse" id="43">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         When a new application is installed its documentation is also installed. This documentation is stored under the directory named for application. For example if my application name is App1 then the path of the documentation will be /user/doc/App1. It contains all the information about the application. It contains date of creating application, name of application and other important module of the application. We can get the basic information of application from the documentation.
+					 </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+		 <button id="owe" class="list-group-item button-info"  data-target="#44"  data-toggle="collapse" style="font-family:Maven Pro">How shadow passwords are given?</button>
+    <div class="collapse" id="44">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         pwconv command is used for giving shadow passwords. Shadow passwords are given for better system security. The pwconv command creates the file /etc/shadow and changes all passwords to ‘x’ in the /etc/passwd file. First, entries in the shadowed file which don't exist in the main file are removed. Then, shadowed entries which don't have `x' as the password in the main file are updated. Any missing shadowed entries are added. Finally, passwords in the main file are replaced with `x'. These programs can be used for initial conversion as well to update the shadowed file if the main file is edited by hand.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#45"  data-toggle="collapse" style="font-family:Maven Pro">How do you create a new user account?</button>
+    <div class="collapse" id="45">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			        useradd command is used for creating a new user account. When invoked without the -D option, the useradd command creates a new user account using the values specified on the command line and the default values from the system. The new user account will be entered into the system files as needed and initial files copied, depending on the command line options. This command uses the system default as home directory. If –m option is given then the home directory is made.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#46"  data-toggle="collapse" style="font-family:Maven Pro">Which password package is installed for the security of central password?</button>
+    <div class="collapse" id="46">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			        Shadow password packages are used for security of central passwords. Security is the most important aspect of every operating system. When this package is not installed the user information including passwords is stored in the /etc/passwd file. The password is stored in an encoded format. These encoded forms can be easily identified by the System crackers by randomly encoding the passwords from dictionaries. The Shadow Package solves the problem by relocating the passwords to another file (usually /etc/shadow). The /etc/shadow file is set so that it cannot be read by just anyone. Only root will be able to read and write to the /etc/shadow file.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#47"  data-toggle="collapse" style="font-family:Maven Pro">How to check Memory stats and CPU stats as a Linux admin?</button>
+    <div class="collapse" id="47">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         Using ‘free’ & ‘vmstat’ command, we can display the physical and virtual memory statistics, respectively. With the help of ‘sar’ command, we can see the CPU utilization & other stats..
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#48"  data-toggle="collapse" style="font-family:Maven Pro">Suppose your FTP Server is hacked and the entire server needs to be restored. How should you restore the original kernel system files?</button>
+    <div class="collapse" id="48">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         You cannot restore the entire operating system from tape backup device. So you should reinstall the core operating system, and then restore system configuration files and user data from tape backup device.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#49"  data-toggle="collapse" style="font-family:Maven Pro">What is the name and path of the main system log?</button>
+    <div class="collapse" id="49">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         By default, the main system log is ‘/var/log/messages’. This file contains all the messages and the script written by the user. By default, all scripts are saved in this file. This is the standard system log file, which contains messages from all system software, non-kernel boot issues, and messages that go to ‘dmesg’. dmesg is a system file that is written upon system boot.
+					 </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#50"  data-toggle="collapse" style="font-family:Maven Pro">What daemon is used for scheduling of the commands?</button>
+    <div class="collapse" id="50">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         The crontab command is used for scheduling of the commands to run at a later time.
+                     SYNTAX
+
+                    crontab [ -u user ] file
+                    crontab [ -u user ] { -l | -r | -e } 
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#51"  data-toggle="collapse" style="font-family:Maven Pro"> Explain LILO?</button>
+    <div class="collapse" id="51">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			        LILO (Linux Loader) is the boot loader for Linux operating system to load it into the main memory so that it can begin its operations. Bootloader here is a small program that manages a dual boot. LILO resides in MBR (Master Boot Record).
+
+Its major advantage is that it allows the fast bootup of Linux when installing in the MBR.
+
+Its limitation lies in the fact that it is not possible for all computers to tolerate modification of MBR.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#52"  data-toggle="collapse" style="font-family:Maven Pro">How to find a process and kill that?</button>
+    <div class="collapse" id="52">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			        by using "ps -ef" you can get a list of all process and then use grep to find your process and get the PID of that process. Once you got PID you can use the kill command to kill that process as shown in this example of kill command in UNIX.
+
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+		 <button id="owe" class="list-group-item button-info"  data-target="#53"  data-toggle="collapse" style="font-family:Maven Pro">Explain /proc filesystem?</button>
+    <div class="collapse" id="53">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         /proc is a virtual file system that provides detailed information about Linux kernel, hardware and running processes. Files under /proc directory named as Virtual files.
+Since /proc contains virtual files, it is called virtual file system. These virtual files have unique qualities. Most of them are listed as zero bytes in size.
+Virtual files such as /proc/interrupts, /proc/meminfo, /proc/mounts, and /proc/partitions provide an up-to-the-moment glimpse of the system’s hardware. Others: /proc/filesystems file and the /proc/sys/ directory provide system configuration information and interfaces.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#54"  data-toggle="collapse" style="font-family:Maven Pro">Explain virtual desktop?</button>
+    <div class="collapse" id="54">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         When there are multiple windows available on the current desktop and there appears the problem of minimizing and maximizing windows or restoring all the current programs, there ‘Virtual Desktop’ serves as an alternative. It allows you to open one or more programs on a clean slate. Virtual desktops are basically stored on a remote server and serve the following benefits:
+
+Virtual desktops are basically stored on a remote server and serve the following benefits
+
+Cost savings as the resources can be shared and allocated as and when required.
+Resources and energy are more efficiently used.
+Data integrity is improved.
+Centralized administration
+Less compatibility issues.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#55"  data-toggle="collapse" style="font-family:Maven Pro">What do you understand by Root account?</button>
+    <div class="collapse" id="55">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         As the name suggests, it is like a system administrator account which gives you the ability to fully control the system. Root account serves as the default account whenever Linux is installed.Below mentioned functions can be performed by Root account
+
+Below mentioned functions can be performed by Root account
+
+Create user accounts
+Maintain user accounts
+Assign different permissions to each account created and so on..
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#56"  data-toggle="collapse" style="font-family:Maven Pro">What is Swap space?</button>
+    <div class="collapse" id="56">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			        Swap space is the amount of physical memory that is allocated for use by Linux to hold some concurrent running programs temporarily. This condition usually occurs when Ram does not have enough memory to support all concurrent running programs. This memory management involves the swapping of memory to and from physical storage.
+
+There are different commands and tools available to manage the Swap space usage.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#57"  data-toggle="collapse" style="font-family:Maven Pro">What are the different modes when using the vi editor?</button>
+    <div class="collapse" id="57">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         The 3 different kinds of modes in vi editor are enlisted below
+
+Command Mode/ Regular Mode
+Insertion Mode/ Edit Mode
+Ex Mode/ Replacement Mode
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#58"  data-toggle="collapse" style="font-family:Maven Pro">Explain the work of Ctrl+Alt+Del key combination on Linux operating system?</button>
+    <div class="collapse" id="58">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         The work of Ctrl+Alt+Del key combination on Linux operating system is same as is for Windows i.e. to restart the system. The only difference is that there is no confirmation message displayed and a system is rebooted directly.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#59"  data-toggle="collapse" style="font-family:Maven Pro">What is the role of case sensitivity in affecting the way commands are used?</button>
+    <div class="collapse" id="59">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         Linux is considered as cases sensitive. Case sensitivity can sometimes serve as the reason for displaying different answers for the same command as you might enter different format of commands each time. In terms of case sensitivity, the command is same but the only difference occurs with regard to uppercase and lowercase letters.
+
+For example cd, CD, Cd are different commands with different outputs.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 	 <button id="owe" class="list-group-item button-info"  data-target="#60"  data-toggle="collapse" style="font-family:Maven Pro">What is a Shell script?</button>
+    <div class="collapse" id="60">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         As the name suggests, the shell script is the script written for the shell. This is a program file or says a flat text file where certain Linux commands are executed one after another. Although the execution speed is slow, Shell script is easy to debug and can also simplify everyday automation processes.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#61"  data-toggle="collapse" style="font-family:Maven Pro">What is the importance of the GNU project?</button>
+    <div class="collapse" id="61">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         This so-called Free software movement allows several advantages, such as the freedom to run programs for any purpose and freedom to study and modify a program to your needs. It also allows you to redistribute copies of software to other people, as well as the freedom to improve software and have it released for the public.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#62"  data-toggle="collapse" style="font-family:Maven Pro">Does it help for a Linux system to have multiple desktop environments installed?</button>
+    <div class="collapse" id="62">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         In general, one desktop environment, like KDE or Gnome, is good enough to operate without issues. It’s all a matter of preference for the user, although the system allows switching from one environment to another. Some programs will work in one environment and not work on the other, so it could also be considered a factor in selecting which environment to use.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#63"  data-toggle="collapse" style="font-family:Maven Pro">What are the basic components of Linux?</button>
+    <div class="collapse" id="63">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         Just like any other typical operating system, Linux has all of these components: kernel, shells and GUIs, system utilities, and an application program. What makes Linux advantageous over other operating system is that every aspect comes with additional features and all codes for these are downloadable for free.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#64"  data-toggle="collapse" style="font-family:Maven Pro"></button>
+    <div class="collapse" id="64">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         A network is a set of devices connected by physically media links. A network is a connection of two or more devices which share resources and communicate with each other.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#65"  data-toggle="collapse" style="font-family:Maven Pro">What is the advantage of open source?</button>
+    <div class="collapse" id="65">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         Open source allows you to distribute your software, including source codes freely to anyone who is interested. People would then be able to add features and even debug and correct errors that are in the source code. They can even make it run better and then redistribute these enhanced source code freely again. This eventually benefits everyone in the community.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+<button id="owe" class="list-group-item button-info"  data-target="#66"  data-toggle="collapse" style="font-family:Maven Pro">DEFINE NETWORK</button>
+    <div class="collapse" id="66">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         A network is a set of devices connected by physically media links. A network is a connection of two or more devices which share resources and communicate with each other.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#67"  data-toggle="collapse" style="font-family:Maven Pro">DEFINE NETWORK</button>
+    <div class="collapse" id="67">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         A network is a set of devices connected by physically media links. A network is a connection of two or more devices which share resources and communicate with each other.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#68"  data-toggle="collapse" style="font-family:Maven Pro">DEFINE NETWORK</button>
+    <div class="collapse" id="68">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         A network is a set of devices connected by physically media links. A network is a connection of two or more devices which share resources and communicate with each other.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#69"  data-toggle="collapse" style="font-family:Maven Pro">DEFINE NETWORK</button>
+    <div class="collapse" id="69">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         A network is a set of devices connected by physically media links. A network is a connection of two or more devices which share resources and communicate with each other.
+			     </p>
+             </div>
+     </div>
+	 
+	 
+	 
+	 
+	 <button id="owe" class="list-group-item button-info"  data-target="#70"  data-toggle="collapse" style="font-family:Maven Pro">DEFINE NETWORK</button>
+    <div class="collapse" id="70">
+             <div class="well well-lg" id="qwr">
+                  <p> 
+			         A network is a set of devices connected by physically media links. A network is a connection of two or more devices which share resources and communicate with each other.
+			     </p>
+             </div>
+     </div>
